@@ -730,7 +730,9 @@ color: #FFFFFF;
     }
 
 .input-form {
+    padding: 15px 0px 15px 16px;
     background-color: #2F303A;
+    color: rgba(255, 255, 255, 0.6);
     border: 1px solid rgba(255, 255, 255, 0.3);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
@@ -758,11 +760,13 @@ border: none;
 
 .subscribe-btn::after {
     content: '';
+    display: block;    
     margin-left: 10px;
     width: 24px;
     height: 24px;
    background-image: url(../img/icon-send.png);
    background-size: contain;
+   background-position: center;
       }
 
     .backdrop {
@@ -804,6 +808,12 @@ border: none;
     background-color: #FFFFFF;
     text-align: center;
        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.close-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
